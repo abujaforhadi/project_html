@@ -1,0 +1,28 @@
+body{
+    font-family: 'Comforter', cursive;
+    font-family: 'Supermercado One', cursive;
+}
+
+h1{
+    font-size: 50px;    
+}
+.nameHig{
+    color: rgba(77, 209, 77, 0.918);
+}
+.half{
+  width: 40%;
+  float: left;   
+  margin: 2%;
+  padding-left: 1%;
+}
+.half img{
+    width: 100%;
+}
+.topb{
+    border: 1px solid red;
+    background-image: url("img/top-banner.png");
+}
+section{
+    height: 500px;
+}
+
