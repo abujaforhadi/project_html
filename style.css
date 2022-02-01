@@ -1,28 +1,78 @@
 body{
+    margin: 0;
     font-family: 'Comforter', cursive;
     font-family: 'Supermercado One', cursive;
+}
+.link{
+    text-decoration: none;
+    background-color: #70c52aa6;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(60deg,#f9fcfca6, #079e9ea6);
+
 }
 
 h1{
     font-size: 50px;    
 }
 .nameHig{
-    color: rgba(77, 209, 77, 0.918);
+    color: rgba(86, 151, 11, 0.918);
 }
 .half{
   width: 40%;
   float: left;   
-  margin: 2%;
-  padding-left: 1%;
+  margin-left: 5%;
+  padding-left: 2%;
 }
 .half img{
     width: 100%;
+    
 }
 .topb{
-    border: 1px solid red;
     background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
 }
 section{
+    padding-bottom: 150px;
     height: 500px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.dream_area{
+      background-image: url(img/dream-bg.png);
+      background-repeat: no-repeat;
+      background-position: right;
+}
+.singleE{
+    box-shadow: 10px 10px 40px rgb(152, 107, 224);
+    border-radius: 6px;
+    height: 80%;
+}
+#fs{
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg,rgb(216, 205, 200),rgb(139, 24, 4)) ;
+    border-image-slice: 1;
+}
+.exp_area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+      background-position: left;
+      background-color: white;
+}
+#hf2{
+    border-left:  7px solid;
+    border-image: linear-gradient(180deg,rgb(194, 206, 196),rgb(7, 58, 13)) ;
+    border-image-slice: 1;
 
+}
+footer{
+text-align: center;
+font-size: 12px;
+color: red;
+}
